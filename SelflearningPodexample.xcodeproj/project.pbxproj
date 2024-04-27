@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		EE5B96122BDD80AB0076EE29 /* SelflearningPodexample.docc in Sources */ = {isa = PBXBuildFile; fileRef = EE5B96112BDD80AB0076EE29 /* SelflearningPodexample.docc */; };
 		EE5B96132BDD80AB0076EE29 /* SelflearningPodexample.h in Headers */ = {isa = PBXBuildFile; fileRef = EE5B96102BDD80AB0076EE29 /* SelflearningPodexample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE5B961B2BDD85490076EE29 /* MyCustomShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B96192BDD85490076EE29 /* MyCustomShadow.swift */; };
+		EE5B961C2BDD85490076EE29 /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B961A2BDD85490076EE29 /* MyCustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE5B960D2BDD80AB0076EE29 /* SelflearningPodexample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SelflearningPodexample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5B96102BDD80AB0076EE29 /* SelflearningPodexample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelflearningPodexample.h; sourceTree = "<group>"; };
 		EE5B96112BDD80AB0076EE29 /* SelflearningPodexample.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SelflearningPodexample.docc; sourceTree = "<group>"; };
+		EE5B96192BDD85490076EE29 /* MyCustomShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomShadow.swift; sourceTree = "<group>"; };
+		EE5B961A2BDD85490076EE29 /* MyCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 		EE5B960F2BDD80AB0076EE29 /* SelflearningPodexample */ = {
 			isa = PBXGroup;
 			children = (
+				EE5B96192BDD85490076EE29 /* MyCustomShadow.swift */,
+				EE5B961A2BDD85490076EE29 /* MyCustomView.swift */,
 				EE5B96102BDD80AB0076EE29 /* SelflearningPodexample.h */,
 				EE5B96112BDD80AB0076EE29 /* SelflearningPodexample.docc */,
 			);
@@ -132,6 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5B961B2BDD85490076EE29 /* MyCustomShadow.swift in Sources */,
+				EE5B961C2BDD85490076EE29 /* MyCustomView.swift in Sources */,
 				EE5B96122BDD80AB0076EE29 /* SelflearningPodexample.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
